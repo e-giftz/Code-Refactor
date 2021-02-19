@@ -36,7 +36,7 @@ li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* more styling for the list item anchor tag */
 li a {
     color: #ffffff;
     text-decoration: none;
@@ -45,7 +45,7 @@ li a {
 p {
     font-size: 16px;
 }
-
+/* adding some styling to the hero section */
 .hero {
     height: 800px;
     width: 100%;
