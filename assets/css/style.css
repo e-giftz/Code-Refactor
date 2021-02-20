@@ -34,33 +34,26 @@ header {
     background-color: #2a607c;
     color: #ffffff;
 }
-/* Styling the main elements */
-main {
-    padding-top: 0px;
-}
 /* Adding some styles to the nav container */
 nav {
-        position: absolute;
-        top: 0;
-        display: inline;
-        left: 800px;
-        padding-top: 35px;
-        margin-top: 6px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 20px;
-        text-align: center;
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
 }
 /* Removes the bullet points from the unordered list items */
 .navigation {
     list-style-type: none;
-    display: inline;
-    margin: 0;
-    padding: 0;
 }
 /* Adding styling to the list elements */
 li {
     display: inline;
     margin-left: 25px;
+}
+/* Styling the main elements */
+main {
+    padding-top: 0px;
 }
 /* Paragraph text styling */
 p {
