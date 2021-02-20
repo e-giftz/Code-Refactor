@@ -9,7 +9,7 @@
 
 <body>
     <header>
-        <h1>Horiseon</h1>
+        <h1><a href="https://e-giftz.github.io/Code-Refactor/">Horiseon</a></h1>
     </header>
     <!-- creating a navigation using unordered lists inside the header -->
     <nav>
@@ -21,7 +21,7 @@
     </nav>
     <!-- Adding a main section for the main contents -->
     <main>
-        <section class="hero"></section>
+        <section class="hero" role="img" aria-label="Digital Marketing Meeting"></section>
 
         <article>
             <section id="search-engine-optimization" class="search-engine-optimization">
@@ -73,8 +73,8 @@
     </main>
     
     <footer class="footer">
-        <!-- <h4>Made with &#xFE0F by Horiseon</h4> -->
-        <h4 role="img" aria-label="heart">Made with ❤️️ by Horiseon</h4> 
+       <!-- Adding a div tag to make the heart icon accessible using the aria label property -->
+        <div role="img" aria-label="heart"><h4>Made with ❤️️ by Horiseon</h4></div>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
