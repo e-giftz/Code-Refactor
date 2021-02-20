@@ -6,10 +6,10 @@
 }
 /* Styling the body elements */
 body {
-    position: relative;
-    margin: 0;
-    padding: 0;
-    background-color: #d9dcd6;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        background-color: #d9dcd6;
 }
 h1 {
     display: inline-block;
@@ -40,22 +40,26 @@ main {
 }
 /* Adding some styles to the nav container */
 nav {
-    position: absolute;
-    top: 0;
-    left: 900px;
-    padding-top: 35px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+        position: absolute;
+        top: 0;
+        display: inline;
+        left: 800px;
+        padding-top: 35px;
+        margin-top: 6px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        text-align: center;
 }
 /* Removes the bullet points from the unordered list items */
 .navigation {
     list-style-type: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
 }
 /* Adding styling to the list elements */
 li {
-    display: inline-block;
+    display: inline;
     margin-left: 25px;
 }
 /* Paragraph text styling */
@@ -131,7 +135,7 @@ article {
 article img {
     max-height: 200px;
 }
-/* Footer element styling */
+/* Footer elements styling */
 .footer {
     padding: 30px;
     clear: both;
