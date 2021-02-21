@@ -12,3 +12,7 @@ The CSS file was modified and re-organized to reflect the changes made in the HT
 
 **Note**: This layout is designed for "desktop", which implies that some of the elements may move positions when viewed at a resolution smaller than 768px.
 
+## Screenshot
+
+>
+![CodeRefactorScreenshot](https://user-images.githubusercontent.com/56089461/108616592-a305d580-73dc-11eb-80f1-670b7403c49a.png)
